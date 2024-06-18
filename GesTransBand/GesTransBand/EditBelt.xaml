@@ -1,0 +1,62 @@
+﻿<Window x:Class="GesTransBand.EditBelt"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GesTransBand"
+        mc:Ignorable="d"
+     Title="Editar Cinta" Height="300" Width="400"
+     ShowInTaskbar="False" ResizeMode="NoResize" WindowStartupLocation="Manual">
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Text, ElementName=activoTextBox}" Value="">
+                    <Setter Property="IsEnabled" Value="False" />
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Text, ElementName=activoTextBox}">
+                    <Setter Property="IsEnabled" Value="True" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    
+    <Grid Background="LightBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="125"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Margin="10">
+            <TextBlock Text="ID"/>
+            <TextBox Name="IdBeltTextBox" IsReadOnly="True" Style="{StaticResource Corto}" HorizontalAlignment="Left" Background="LightGray"/>
+
+            <TextBlock Text="Descripción"/>
+            <TextBox Name="NameBeltTextBox" Style="{StaticResource Largo}" HorizontalAlignment="Left" TextChanged="TextBox_TextChanged"/>
+
+            <TextBlock Text="Ficha Técnica"/>
+            <TextBox Name="DataSheetTextBox" Style="{StaticResource Largo}" HorizontalAlignment="Left" TextChanged="TextBox_TextChanged"/>
+
+            <TextBlock Text="Certificado" Margin="0,0,0,5"/>
+            <TextBox Name="CertificateTextBox" Style="{StaticResource Largo}" HorizontalAlignment="Left" TextChanged="TextBox_TextChanged"/>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" >
+            <Button x:Name="guardarButton" Content="Guardar" Style="{StaticResource Normal}" IsEnabled="False"
+                    HorizontalAlignment="Left" Click="SaveButton_Click"/>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Button Style="{StaticResource IconButton}" HorizontalAlignment="Right" Click="CloseButton_Click">
+                <Image Source="imagenes/Exit_02.ico"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+
+</Window>

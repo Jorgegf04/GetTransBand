@@ -1,0 +1,69 @@
+﻿<Window x:Class="GesTransBand.ProductView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gestión de Productos" Height="600" Width="1100">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Gestión de Productos" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
+
+        <Grid Grid.Row="1" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Línea 1 -->
+            <StackPanel Grid.Column="0" Margin="10">
+                <TextBlock Text="Línea 1" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
+                <ListView Name="lvLine1Products" SelectionChanged="lvLine1Products_SelectionChanged">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="ID" DisplayMemberBinding="{Binding IdProduct}" Width="50"/>
+                            <GridViewColumn Header="Descripción" DisplayMemberBinding="{Binding DesProduct}" Width="200"/>
+                            <GridViewColumn Header="Fecha" DisplayMemberBinding="{Binding FechaLote}" Width="150"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <Button Content="Añadir Producto" Click="AddLine1Product_Click" Margin="5"/>
+                <Button Content="Guardar" Click="SaveLine1Product_Click" Margin="5"/>
+                <Button Content="Eliminar" Click="DeleteLine1Product_Click" Margin="5"/>
+                <TextBlock Text="Detalles del Producto Seleccionado en Línea 1:" FontWeight="Bold" Margin="10 0 0 0"/>
+                <TextBlock Text="Descripción:" Margin="5 0 0 0"/>
+                <TextBox x:Name="txtLine1Description" Width="300" Margin="0 0 0 10"/>
+                <TextBlock Text="Fecha de Lote:" Margin="5 0 0 0"/>
+                <DatePicker x:Name="dpLine1FechaLote" Width="300" Margin="0 0 0 10"/>
+            </StackPanel>
+
+            <!-- Línea 2 -->
+            <StackPanel Grid.Column="1" Margin="10">
+                <TextBlock Text="Línea 2" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
+                <ListView Name="lvLine2Products" SelectionChanged="lvLine2Products_SelectionChanged">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="ID" DisplayMemberBinding="{Binding IdProduct}" Width="50"/>
+                            <GridViewColumn Header="Descripción" DisplayMemberBinding="{Binding DesProduct}" Width="200"/>
+                            <GridViewColumn Header="Fecha" DisplayMemberBinding="{Binding FechaLote}" Width="150"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <Button Content="Añadir Producto" Click="AddLine2Product_Click" Margin="5"/>
+                <Button Content="Guardar" Click="SaveLine2Product_Click" Margin="5"/>
+                <Button Content="Eliminar" Click="DeleteLine2Product_Click" Margin="5"/>
+                <TextBlock Text="Detalles del Producto Seleccionado en Línea 2:" FontWeight="Bold" Margin="10 0 0 0"/>
+                <TextBlock Text="Descripción:" Margin="5 0 0 0"/>
+                <TextBox x:Name="txtLine2Description" Width="300" Margin="0 0 0 10"/>
+                <TextBlock Text="Fecha de Lote:" Margin="5 0 0 0"/>
+                <DatePicker x:Name="dpLine2FechaLote" Width="300" Margin="0 0 0 10"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Botón Salir -->
+        <Button Grid.Row="2" Content="Salir" Click="ExitButton_Click" HorizontalAlignment="Right" Margin="10"/>
+    </Grid>
+</Window>
+

@@ -1,0 +1,172 @@
+﻿<Window x:Class="GesTransBand.ConveyorBeltsByAssetView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GesTransBand"
+        mc:Ignorable="d"
+        Title="Cintas por activo" Height="850" Width="1000"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner">
+    
+    <Window.Resources>
+        <local:ImagePathConverter x:Key="ImagePathConverter"/>
+        <local:BooleanToYesNoConverter x:Key="BooleanToYesNoConveter"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="300"></RowDefinition>
+            <RowDefinition Height="230"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="700"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="2" Background="LightGray" Margin="5">
+            <TextBlock Text="Cintas por Activo" FontSize="30" FontWeight="Bold"
+                       VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <GroupBox Header="Activo" Grid.Row="1" Grid.Column="0" Background="LightBlue"
+                  BorderBrush="Blue" BorderThickness="2">
+            
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="5">Activo</TextBlock>
+                        <TextBox x:Name="idActivoTextBox" Style="{StaticResource Corto}" IsReadOnly="True"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="5">Linea</TextBlock>
+                        <TextBox x:Name="idLineaTextBox" Style="{StaticResource Corto}" IsReadOnly="True"/>
+                        <TextBox x:Name="desLineaTextBox" Style="{StaticResource Corto}" IsReadOnly="True" Background="Lavender"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="5">Zona</TextBlock>
+                        <TextBox x:Name="idZoneTextBox" Style="{StaticResource Corto}" IsReadOnly="True"/>
+                        <TextBox x:Name="desZoneTextBox"  Style="{StaticResource Corto}" IsReadOnly="True" Background="Lavender"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Margin="5">Descripcion</TextBlock>
+                    <TextBox x:Name="desActivoTextBox" Style="{StaticResource Largo}" IsReadOnly="True"></TextBox>
+                </StackPanel>
+                <TextBlock Margin="10">Imagen</TextBlock>
+
+                <StackPanel Margin="5">
+                    <Image x:Name="activoImage" Width="180" Height="180"
+                           Source="{Binding Path=ImageActive, Converter={StaticResource ImagePathConverter}}"/>
+                </StackPanel>
+            </StackPanel>
+
+        </GroupBox>
+        
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="5" Background="Lavender">
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Margin="5">
+                <Button x:Name="infoActivoButton" Style="{StaticResource IconButton}" ToolTip="Listado de activos"
+                        Click="InfoActivoButton_Click">
+                    <Image Source="imagenes/information.ico"></Image>
+                </Button>
+                <Button x:Name="asignarActivoButton" Style="{StaticResource IconButton}" ToolTip="Introduce activo" 
+                        IsEnabled="False" Click="AsignarActivoButton_Click">
+                    <Image Source="imagenes/arrow_left_down.ico"></Image>
+                </Button>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" Margin="5">
+                <TextBlock>Introduce Activo:</TextBlock>
+                <TextBox x:Name="idTextBox" Style="{StaticResource Corto}" TextChanged="IdTextBox_TextChanged"></TextBox>
+            </StackPanel>
+        </StackPanel>
+
+        <GroupBox Header="Cintas" Grid.Row="2" Grid.Column="0" Background="AliceBlue"
+                  BorderBrush="Blue" BorderThickness="2">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Width="45" Margin="5">Nombre</TextBlock>
+                    <TextBox x:Name="nameActivoTextBox" Style="{StaticResource Largo}"
+                             TextChanged="NameActivoTextBox_TextChanged"/>
+                    <TextBlock Width="35" Margin="5">Cinta</TextBlock>
+                    <TextBox x:Name="codigoCintaTextBox" Style="{StaticResource Corto}" IsReadOnly="True"></TextBox>
+                    <TextBox x:Name="desCintaTextBox"  Style="{StaticResource Largo}" IsReadOnly="True" Background="Lavender"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Width="50" Margin="5">Longitud</TextBlock>
+                    <TextBox x:Name="longCintaTextBox" Style="{StaticResource Corto}" IsReadOnly="True"></TextBox>
+                    <TextBlock Width="50" Margin="5">mm</TextBlock>
+                    <TextBlock Width="40" Margin="5">Ancho</TextBlock>
+                    <TextBox x:Name="anchoCintaTextBox" Style="{StaticResource Corto}" IsReadOnly="True"></TextBox>
+                    <TextBlock Width="50" Margin="5">mm</TextBlock>
+                    <TextBlock x:Name="cerradaTextBlock" Width="50" Margin="5">Cerrada</TextBlock>
+                </StackPanel>
+            </StackPanel>
+            
+        </GroupBox>
+
+        <GroupBox Header="Cintas por Activo" Grid.Row="3" Grid.Column="0" Background="LightGray"
+                  BorderBrush="Gray" BorderThickness="2">
+            <DataGrid x:Name="cintaPorActivosDataGrid" AutoGenerateColumns="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding Id}"/>
+                    <DataGridTextColumn Header="Nombre" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Header="Activo" Binding="{Binding IdActive}"/>
+                    <DataGridTextColumn Header="Cinta" Binding="{Binding IdBelt}"/>
+                    <DataGridTextColumn Header="Longitud" Binding="{Binding Longitude}"/>
+                    <DataGridTextColumn Header="Ancho" Binding="{Binding Wide}"/>
+                    <DataGridTextColumn Header="Cerrada" Binding="{Binding Closed, Converter={StaticResource BooleanToYesNoConveter}}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+
+        <StackPanel Grid.Row="2" Grid.Column="1" Margin="5" Background="Lavender">
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Margin="5">
+                <Button x:Name="infoCintaButton" Style="{StaticResource IconButton}" ToolTip="Listado de tipos de cinta"
+                        Click="InfoCintaButton_Click">
+                    <Image Source="imagenes/information.ico"></Image>
+                </Button>
+                <Button x:Name="asignarCintaButton" Style="{StaticResource IconButton}" ToolTip="Introduce el tipo de cinta" 
+                        IsEnabled="False" Click="AsignarCintaButton_Click">
+                    <Image Source="imagenes/arrow_left_down.ico"></Image>
+                </Button>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" Margin="5">
+                <TextBlock>Introduce Cinta:</TextBlock>
+                <TextBox x:Name="idCintaTextBox" Style="{StaticResource Corto}" TextChanged="IdCintaTextBox_TextChanged"></TextBox>
+            </StackPanel>
+
+            <StackPanel Margin="10">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="5" Text="Longitud" Width="55"/>
+                    <TextBox x:Name="longitudTextBox" Style="{StaticResource Corto}"/>
+                    <TextBlock Width="20" Margin="5">mm</TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="5" Text="Ancho" Width="55"/>
+                    <TextBox x:Name="anchoTextBox" Style="{StaticResource Corto}"/>
+                    <TextBlock Width="20" Margin="5">mm</TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="5" Text="Cerrada" Width="55"/>
+                    <CheckBox x:Name="CerradaCheckBox" VerticalAlignment="Center" 
+                                 Checked="CerradaRadioButton_Checked" 
+                                 Unchecked="CerradaRadioButton_Unchecked"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <Button x:Name="grabarButton" Grid.Row="4" Grid.Column="0" Content="Grabar" Style="{StaticResource Normal}"
+                HorizontalAlignment="Left" Click="GrabarButton_Click" IsEnabled="False"/>
+        <Button x:Name="limpiarButton" Grid.Row="4" Grid.Column="0" Content="Limpiar" Style="{StaticResource Normal}"
+                Click="LimpiarButton_Click"/>
+        <Button Grid.Row="4" Grid.Column="1" Style="{StaticResource IconButton}" HorizontalAlignment="Right" Click="Button_Click">
+            <Image Source="imagenes/Exit_02.ico"></Image>
+        </Button>
+
+    </Grid>
+
+
+</Window>

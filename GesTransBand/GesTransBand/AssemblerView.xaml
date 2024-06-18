@@ -1,0 +1,95 @@
+﻿<Window x:Class="GesTransBand.AssemblerView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GesTransBand"
+        mc:Ignorable="d"
+        Title="Montadores" Height="650" Width="900"
+        ShowInTaskbar="False"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="CanResize">
+    
+    <Grid Margin="0,0,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="LightGray">
+            <TextBlock Text="GESTIÓN DE MONTADORES" FontSize="20" FontWeight="Bold" 
+                       HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="270"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Margin="10" Background="LightGray">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Nombre:" VerticalAlignment="Center"/>
+                    <TextBox x:Name="nameTextBox" Style="{StaticResource Corto}" HorizontalAlignment="Left"
+                             TextChanged="NameTextBox_TextChanged"/>
+                </StackPanel>
+
+                <StackPanel Margin="10">
+                    <TextBlock Text="Apellido:" VerticalAlignment="Center"/>
+                    <TextBox x:Name="surnameTextBox" Style="{StaticResource Largo}" HorizontalAlignment="Left"
+                             TextChanged="SurnameTextBox_TextChanged"/>
+                </StackPanel>
+
+                <StackPanel Margin="10">
+                    <TextBlock Text="Teléfono:" VerticalAlignment="Center"/>
+                    <TextBox x:Name="telephoneTextBox" Style="{StaticResource Corto}" HorizontalAlignment="Left"
+                             TextChanged="TelephoneTextBox_TextChanged"/>
+                </StackPanel>
+
+                <StackPanel Margin="10">
+                    <TextBlock Text="Email:" VerticalAlignment="Center"/>
+                    <TextBox x:Name="emailTextBox" Style="{StaticResource Largo}" HorizontalAlignment="Left"
+                             TextChanged="EmailTextBox_TextChanged"/>
+                </StackPanel>
+
+                <StackPanel Margin="10">
+                    <TextBlock Text="Compañía:" VerticalAlignment="Center"/>
+                    <ComboBox x:Name="companyComboBox" Width="200" DisplayMemberPath="Name" HorizontalAlignment="Left"
+                              SelectedValuePath="IdCompany" SelectionChanged="CompanyComboBox_SelectionChanged"/>
+                </StackPanel>
+
+                <StackPanel Margin="10" Background="Lavender">
+                    <Button x:Name="saveButton" Content="Guardar" Style="{StaticResource Normal}" 
+                        HorizontalAlignment="Left" IsEnabled="False" Click="SaveAssembler_Click"/>
+                    <Button x:Name="deleteButton" Content="Eliminar" Style="{StaticResource Normal}" 
+                        HorizontalAlignment="Left" IsEnabled="False" Click="DeleteAssembler_Click"/>
+                    <Button x:Name="clearButton" Content="Limpiar" Style="{StaticResource Normal}" 
+                            HorizontalAlignment="Left" Click="ClearForm_Click"/>
+                    <Button x:Name="nuevoButton" Content="Nuevo" Style="{StaticResource Normal}" 
+                        HorizontalAlignment="Left" IsEnabled="False" Click="NuevoAssembler_Click"/>
+                </StackPanel>
+
+            </StackPanel>
+
+            <ListView Grid.Column="1" Name="lvAssembler" Margin="10" SelectionChanged="LvAssembler_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="ID" DisplayMemberBinding="{Binding IdAssembler}" Width="50"/>
+                        <GridViewColumn Header="Nombre" DisplayMemberBinding="{Binding Name}" Width="150"/>
+                        <GridViewColumn Header="Apellido" DisplayMemberBinding="{Binding Surname}" Width="150"/>
+                        <GridViewColumn Header="Teléfono" DisplayMemberBinding="{Binding Telephone}" Width="100"/>
+                        <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}" Width="200"/>
+                        <GridViewColumn Header="Compañía" DisplayMemberBinding="{Binding CompanyName}" Width="200"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+
+        <Grid Grid.Row="2" HorizontalAlignment="Right">
+            <Button Style="{StaticResource IconButton}" Click="ExitButton_Click">
+                <Image Source="imagenes/Exit_02.ico"/>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,95 @@
+﻿<Window x:Class="GesTransBand.UserView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GesTransBand"
+        mc:Ignorable="d"
+        Title="Usuarios" Height="650" Width="900"
+        ShowInTaskbar="False"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="CanResize">
+    
+    <Grid Margin="0,0,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="LightGray">
+            <TextBlock Text="GESTIÓN DE USUARIOS" FontSize="20" FontWeight="Bold" 
+                       HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Margin="10" Background="LightGray">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Nombre:" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtUserName" Style="{StaticResource Corto}" HorizontalAlignment="Left"
+                             TextChanged="txtUserName_TextChanged"/>
+                </StackPanel>
+
+                <StackPanel Margin="10">
+                    <TextBlock Text="Apellido:" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtUserSurname" Style="{StaticResource Largo}" HorizontalAlignment="Left"
+                             TextChanged="txtUserSurname_TextChanged"/>
+                </StackPanel>
+
+                <StackPanel Margin="10">
+                    <TextBlock Text="Teléfono:" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtUserTelephone" Style="{StaticResource Corto}" HorizontalAlignment="Left"
+                             TextChanged="txtUserTelephone_TextChanged"/>
+                </StackPanel>
+
+                <StackPanel Margin="10">
+                    <TextBlock Text="Email:" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtUserEmail" Style="{StaticResource Largo}" HorizontalAlignment="Left"
+                             TextChanged="txtUserEmail_TextChanged"/>
+                </StackPanel>
+
+                <StackPanel Margin="10">
+                    <TextBlock Text="Compañía:" VerticalAlignment="Center"/>
+                    <ComboBox x:Name="cbUserCompany" Width="200" DisplayMemberPath="Name" SelectedValuePath="IdCompany"
+                              HorizontalAlignment="Left" SelectionChanged="cbUserCompany_SelectionChanged"/>
+                </StackPanel>
+                
+                <StackPanel Margin="10" Background="Lavender">
+                    <Button x:Name="saveButton" Content="Guardar" Style="{StaticResource Normal}" 
+                        HorizontalAlignment="Left" IsEnabled="False" Click="SaveUser_Click"/>
+                    <Button x:Name="deleteButton" Content="Eliminar" Style="{StaticResource Normal}" 
+                        HorizontalAlignment="Left" IsEnabled="False" Click="DeleteUser_Click"/>
+                    <Button x:Name="clearButton" Content="Limpiar" Style="{StaticResource Normal}" 
+                            HorizontalAlignment="Left" Click="ClearForm_Click"/>
+                    <Button x:Name="nuevoButton" Content="Nuevo" Style="{StaticResource Normal}" 
+                        HorizontalAlignment="Left" IsEnabled="False" Click="NuevoUser_Click"/>
+                </StackPanel>
+
+            </StackPanel>
+
+            <ListView Grid.Column="1" Name="lvUsers" Margin="10" SelectionChanged="lvUsers_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="ID" DisplayMemberBinding="{Binding IdUser}" Width="50"/>
+                        <GridViewColumn Header="Nombre" DisplayMemberBinding="{Binding Name}" Width="150"/>
+                        <GridViewColumn Header="Apellido" DisplayMemberBinding="{Binding Surname}" Width="150"/>
+                        <GridViewColumn Header="Teléfono" DisplayMemberBinding="{Binding Telephone}" Width="100"/>
+                        <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}" Width="200"/>
+                        <GridViewColumn Header="Compañía" DisplayMemberBinding="{Binding CompanyName}" Width="200"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+
+        <Grid Grid.Row="2" HorizontalAlignment="Right">
+            <Button Style="{StaticResource IconButton}" Click="ExitButton_Click">
+                <Image Source="imagenes/Exit_02.ico"/>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

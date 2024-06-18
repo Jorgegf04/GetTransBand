@@ -1,0 +1,41 @@
+﻿<Window x:Class="GesTransBand.ListBelt"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GesTransBand"
+        mc:Ignorable="d"
+        Title="Listado de Cintas" Height="450" Width="800" 
+        WindowStartupLocation="CenterOwner"
+        ShowInTaskbar="False"
+        ResizeMode="CanResize">
+
+    <Grid Background="LightBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Listado de Cintas" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
+
+        <DataGrid Grid.Row="1" Name="listadoCintasDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Margin="10"
+                  IsReadOnly="True" SelectionChanged="ActivesDataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding IdBelt}"/>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding NameBelt}"/>
+                <DataGridTextColumn Header="Ficha Técnica" Binding="{Binding DataSheet}"/>
+                <DataGridTextColumn Header="Certificado" Binding="{Binding Certificate}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+            <Button x:Name="cleanButton" Content="Limpiar" Style="{StaticResource Normal}" Click="CleanButton_Click"/>
+            <Button x:Name="editButton" Content="Editar" Style="{StaticResource Normal}" Click="EditarCinta_Click" IsEnabled="False"/>
+            <Button x:Name="deleteButton" Content="Eliminar" Style="{StaticResource Normal}" Click="EliminarCinta_Click" IsEnabled="False"/>
+            <Button Style="{StaticResource IconButton}" Click="ExitButton_Click">
+                <Image Source="imagenes/Exit_02.ico"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,580 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|c:\\users\\jgfes\\onedrive\\escritorio\\proyecto\\gestransband\\gestransband\\gestransband\\zone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\zone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\productionline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\productionline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\iperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\iperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\imagepathconverte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\imagepathconverte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\conveyorbeltsbyasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\conveyorbeltsbyasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\conveyorbeltassembly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\conveyorbeltassembly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\contactperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\contactperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\commercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\commercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\booleantoyesnoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\booleantoyesnoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\beltassigment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\beltassigment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\belt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\belt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\activedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\activedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\active.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\active.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\contactpersonview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\contactpersonview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\contactpersonview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\contactpersonview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\assemblerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\assemblerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\assemblerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\assemblerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\userview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\userview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\userview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\userview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\treeviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\treeviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\productview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\productview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\newproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\newproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\newbelt.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\newbelt.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\newactive.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\newactive.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\editactivewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\editactivewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\conveyorbeltsbyassetview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\conveyorbeltsbyassetview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\companyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\companyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\editactivewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\editactivewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\activelist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\activelist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\gestransband\\activelist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{442F23B8-FF5E-49A6-B4A7-C1C358E7F840}|GesTransBand\\GesTransBand.csproj|solutionrelative:gestransband\\activelist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Zone.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\Zone.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\Zone.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\Zone.cs",
+              "RelativeToolTip": "GesTransBand\\Zone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:23:22.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductionLine.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ProductionLine.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\ProductionLine.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ProductionLine.cs",
+              "RelativeToolTip": "GesTransBand\\ProductionLine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:23:06.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\Product.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\Product.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\Product.cs",
+              "RelativeToolTip": "GesTransBand\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:22:58.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPerson.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\IPerson.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\IPerson.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\IPerson.cs",
+              "RelativeToolTip": "GesTransBand\\IPerson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:22:54.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ImagePathConverte.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ImagePathConverte.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\ImagePathConverte.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ImagePathConverte.cs",
+              "RelativeToolTip": "GesTransBand\\ImagePathConverte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:22:48.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConveyorBeltsByAsset.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ConveyorBeltsByAsset.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\ConveyorBeltsByAsset.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ConveyorBeltsByAsset.cs",
+              "RelativeToolTip": "GesTransBand\\ConveyorBeltsByAsset.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:22:37.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConveyorBeltAssembly.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ConveyorBeltAssembly.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\ConveyorBeltAssembly.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ConveyorBeltAssembly.cs",
+              "RelativeToolTip": "GesTransBand\\ConveyorBeltAssembly.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:22:29.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\Company.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\Company.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\Company.cs",
+              "RelativeToolTip": "GesTransBand\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:22:13.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Commercial.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\Commercial.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\Commercial.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\Commercial.cs",
+              "RelativeToolTip": "GesTransBand\\Commercial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:22:04.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NewBelt.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\NewBelt.xaml.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\NewBelt.xaml.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\NewBelt.xaml.cs",
+              "RelativeToolTip": "GesTransBand\\NewBelt.xaml.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAIwBkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:44:49.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GesTransBand\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\MainWindow.xaml",
+              "RelativeToolTip": "GesTransBand\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-16T13:41:49.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\User.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\User.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\User.cs",
+              "RelativeToolTip": "GesTransBand\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:23:13.652Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CompanyView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\CompanyView.xaml.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\CompanyView.xaml.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\CompanyView.xaml.cs",
+              "RelativeToolTip": "GesTransBand\\CompanyView.xaml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowDcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:43:52.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\App.config",
+              "RelativeDocumentMoniker": "GesTransBand\\App.config",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\App.config",
+              "RelativeToolTip": "GesTransBand\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-16T13:43:28.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NewActive.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\NewActive.xaml.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\NewActive.xaml.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\NewActive.xaml.cs",
+              "RelativeToolTip": "GesTransBand\\NewActive.xaml.cs",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAAwGMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:44:33.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ConveyorBeltsByAssetView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ConveyorBeltsByAssetView.xaml.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\ConveyorBeltsByAssetView.xaml.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ConveyorBeltsByAssetView.xaml.cs",
+              "RelativeToolTip": "GesTransBand\\ConveyorBeltsByAssetView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:44:04.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BooleanToYesNoConverter.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\BooleanToYesNoConverter.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\BooleanToYesNoConverter.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\BooleanToYesNoConverter.cs",
+              "RelativeToolTip": "GesTransBand\\BooleanToYesNoConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:21:58.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BeltAssigment.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\BeltAssigment.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\BeltAssigment.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\BeltAssigment.cs",
+              "RelativeToolTip": "GesTransBand\\BeltAssigment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:21:49.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Belt.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\Belt.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\Belt.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\Belt.cs",
+              "RelativeToolTip": "GesTransBand\\Belt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T16:21:37.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContactPerson.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ContactPerson.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\ContactPerson.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ContactPerson.cs",
+              "RelativeToolTip": "GesTransBand\\ContactPerson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:50:12.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ContactPersonView.xaml",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ContactPersonView.xaml",
+              "RelativeDocumentMoniker": "GesTransBand\\ContactPersonView.xaml",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ContactPersonView.xaml",
+              "RelativeToolTip": "GesTransBand\\ContactPersonView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-16T13:49:21.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ContactPersonView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ContactPersonView.xaml.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\ContactPersonView.xaml.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ContactPersonView.xaml.cs",
+              "RelativeToolTip": "GesTransBand\\ContactPersonView.xaml.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAwJEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:46:53.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\UserView.xaml.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\UserView.xaml.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\UserView.xaml.cs",
+              "RelativeToolTip": "GesTransBand\\UserView.xaml.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAuwLkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:45:17.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TreeViewWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\TreeViewWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\TreeViewWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\TreeViewWindow.xaml.cs",
+              "RelativeToolTip": "GesTransBand\\TreeViewWindow.xaml.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowBEAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:45:10.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ProductView.xaml.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\ProductView.xaml.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ProductView.xaml.cs",
+              "RelativeToolTip": "GesTransBand\\ProductView.xaml.cs",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAYwEIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:45:00.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NewProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\NewProduct.xaml.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\NewProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\NewProduct.xaml.cs",
+              "RelativeToolTip": "GesTransBand\\NewProduct.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:44:56.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Active.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\Active.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\Active.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\Active.cs",
+              "RelativeToolTip": "GesTransBand\\Active.cs",
+              "ViewState": "AQIAANQAAAAAAAAAAAAswOgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T14:34:45.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ActiveDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ActiveDTO.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\ActiveDTO.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ActiveDTO.cs",
+              "RelativeToolTip": "GesTransBand\\ActiveDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:14:25.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AssemblerView.xaml",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\AssemblerView.xaml",
+              "RelativeDocumentMoniker": "GesTransBand\\AssemblerView.xaml",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\AssemblerView.xaml",
+              "RelativeToolTip": "GesTransBand\\AssemblerView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-16T14:25:40.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AssemblerView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\AssemblerView.xaml.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\AssemblerView.xaml.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\AssemblerView.xaml.cs",
+              "RelativeToolTip": "GesTransBand\\AssemblerView.xaml.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAUwLcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:43:38.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserView.xaml",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\UserView.xaml",
+              "RelativeDocumentMoniker": "GesTransBand\\UserView.xaml",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\UserView.xaml",
+              "RelativeToolTip": "GesTransBand\\UserView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-16T14:20:57.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditActiveWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\EditActiveWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\EditActiveWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\EditActiveWindow.xaml.cs",
+              "RelativeToolTip": "GesTransBand\\EditActiveWindow.xaml.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAkwCoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:19:20.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EditActiveWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\EditActiveWindow.xaml",
+              "RelativeDocumentMoniker": "GesTransBand\\EditActiveWindow.xaml",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\EditActiveWindow.xaml",
+              "RelativeToolTip": "GesTransBand\\EditActiveWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-05T17:18:44.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ActiveList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ActiveList.xaml.cs",
+              "RelativeDocumentMoniker": "GesTransBand\\ActiveList.xaml.cs",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ActiveList.xaml.cs",
+              "RelativeToolTip": "GesTransBand\\ActiveList.xaml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAwEMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:12:21.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ActiveList.xaml",
+              "DocumentMoniker": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ActiveList.xaml",
+              "RelativeDocumentMoniker": "GesTransBand\\ActiveList.xaml",
+              "ToolTip": "C:\\Users\\jgfes\\OneDrive\\Escritorio\\Proyecto\\GesTransBand\\GesTransBand\\GesTransBand\\ActiveList.xaml",
+              "RelativeToolTip": "GesTransBand\\ActiveList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-02T15:02:34.515Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

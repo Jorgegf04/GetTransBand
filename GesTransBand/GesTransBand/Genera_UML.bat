@@ -1,0 +1,1 @@
+﻿puml-gen .\ .\uml -dir -createAssociation -allInOne
